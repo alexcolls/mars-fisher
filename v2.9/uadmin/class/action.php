@@ -54,7 +54,7 @@ class ACTION
         } else {
 
             // if action happnd first time, it wil create actuon obejct on sql , adn let user to colite thi action only at thei time. afte thsi action wil appear on action stting
-            $sql_res = USER::$sql->exec("insert into actions(id,desc) values('$act_obj->id','$act_obj->desc')");
+            // $sql_res = USER::$sql->exec("insert into actions(id,desc) values('$act_obj->id','$act_obj->desc')");
             return true;
         }
     }
@@ -97,12 +97,12 @@ class ACTIVITY
 
 }
 
-$res = USER::$sql->query("select  * from actions");
-while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
-    $actions[] = new ACTION($row);
-}
+// $res = USER::$sql->query("select  * from actions");
+// while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
+//     $actions[] = new ACTION($row);
+// }
 
 
 
 
-// var_dump(ACTION::actions_filter(json_decode('{"id":"someact2","err_mes":"Sorry, you cann not perfome this operation. Contact admin","desc":"Some action"}')));
+var_dump(ACTION::actions_filter(json_decode('{"id":"someact2","err_mes":"Sorry, you cann not perfome this operation. Contact admin","desc":"Some action"}')));

@@ -19,17 +19,17 @@ class USER
 
             //filters...
             if ($key == "perm_view") {
-                $this->perm_view = json_decode($val);
+                // $this->perm_view = json_decode($val);
                 continue;
             }
 
             if ($key == "perm_action") {
-                $this->perm_action = json_decode($val);
+                // $this->perm_action = json_decode($val);
                 continue;
             }
 
             if ($key == "links_filter") {
-                $this->links_filter = json_decode($val);
+                // $this->links_filter = json_decode($val);
                 continue;
             }
 
@@ -84,16 +84,16 @@ class USER
     }
 };
 
-USER::$sql = new sqlite3('plugins/core/users/public/.ht_user.sqlite');
+// USER::$sql = new sqlite3('plugins/core/users/public/.ht_user.sqlite');
 
-$res = USER::$sql->query("select rowid as ui, * from users");
-while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
-    $users[] = new USER($row);
-}
+// $res = USER::$sql->query("select rowid as ui, * from users");
+// while ($row = $res->fetchArray(SQLITE3_ASSOC)) {
+//     $users[] = new USER($row);
+// }
 
-if (isset($_SESSION['user'])) {
-    $user_found = USER::get_user_by_ui($_SESSION['user']);
-    if ($user_found && isset($_SESSION['pass']) && $user_found->pass == $_SESSION['pass'] && $_SESSION['ip']==$_SERVER['REMOTE_ADDR']) {
-        $k_user = USER::get_user_by_ui($_SESSION['user']);
-    }
-}
+// if (isset($_SESSION['user'])) {
+//     $user_found = USER::get_user_by_ui($_SESSION['user']);
+//     if ($user_found && isset($_SESSION['pass']) && $user_found->pass == $_SESSION['pass'] && $_SESSION['ip']==$_SERVER['REMOTE_ADDR']) {
+//         $k_user = USER::get_user_by_ui($_SESSION['user']);
+//     }
+// }

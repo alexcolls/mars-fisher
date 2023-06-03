@@ -98,3 +98,5 @@ function exit__()
     require_once 'homepage_components/footer.php';exit;
 
 }
+
+?>

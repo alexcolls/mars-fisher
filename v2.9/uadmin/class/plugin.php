@@ -16,18 +16,18 @@ class CORE_PLUGIN
 
         $plug_name = file_get_contents($file);
         preg_match("/Plugin name:(.*);/", $plug_name, $matches);
-        $this->name = trim($matches[1]);
+        // $this->name = trim($matches[1]);
 
         
 
-        $this->type     = "core";
-        $this->id       = basename(dirname($file));
-        $this->mid      = basename(dirname($file));
-        $this->url      = dirname($file);
-        $this->ab_url   = realpath(dirname($file));
-        $this->path     = realpath(dirname($file)) . '/';
-        $this->url_     = UADMIN_AB_ROOT . dirname($file) . '/';
-        $this->ajax_url = UADMIN_AB_ROOT . UADMIN_HOME_FILE . "?p=" . $this->id;
+        // $this->type     = "core";
+        // $this->id       = basename(dirname($file));
+        // $this->mid      = basename(dirname($file));
+        // $this->url      = dirname($file);
+        // $this->ab_url   = realpath(dirname($file));
+        // $this->path     = realpath(dirname($file)) . '/';
+        // $this->url_     = UADMIN_AB_ROOT . dirname($file) . '/';
+        // $this->ajax_url = UADMIN_AB_ROOT . UADMIN_HOME_FILE . "?p=" . $this->id;
     }
 
     public static function get_plugin_by_ui($ui)
@@ -50,7 +50,7 @@ class CUSTOM_PLUGIN
     {
         $plug_name = file_get_contents($file);
         preg_match("/Plugin name:(.*);/", $plug_name, $matches);
-        $this->name = trim($matches[1]);
+        // $this->name = trim($matches[1]);
 
         $plugin_group = file_get_contents($file);
         preg_match("/\/Group:(.*);/", $plugin_group, $matches);
@@ -60,17 +60,17 @@ class CUSTOM_PLUGIN
 
 
 
-            $this->group = trim($matches[1]);
+            // $this->group = trim($matches[1]);
         }
 
-        $this->type     = "custom";
-        $this->id       = basename(dirname($file));
-        $this->mid      = basename(dirname($file));
-        $this->url      = dirname($file);
-        $this->ab_url   = realpath(dirname($file));
-        $this->path     = realpath(dirname($file)) . '/';
-        $this->url_     = UADMIN_AB_ROOT . dirname($file) . '/';
-        $this->ajax_url = UADMIN_AB_ROOT . UADMIN_HOME_FILE . "?p=" . $this->id;
+        // $this->type     = "custom";
+        // $this->id       = basename(dirname($file));
+        // $this->mid      = basename(dirname($file));
+        // $this->url      = dirname($file);
+        // $this->ab_url   = realpath(dirname($file));
+        // $this->path     = realpath(dirname($file)) . '/';
+        // $this->url_     = UADMIN_AB_ROOT . dirname($file) . '/';
+        // $this->ajax_url = UADMIN_AB_ROOT . UADMIN_HOME_FILE . "?p=" . $this->id;
     }
 
 
