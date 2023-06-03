@@ -1,0 +1,259 @@
+@keyframes blink1 {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@-webkit-keyframes blink1 {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+/*
+.red_row {
+    -webkit-animation: blink 0.9s linear infinite;
+    -moz-animation: blink 0.9s linear infinite;
+    -ms-animation: blink 0.9s linear infinite;
+    -o-animation: blink 0.9s linear infinite;
+    animation: blink 0.9s linear infinite;
+}*/
+
+.alert-secondary {
+    border: 1px solid grey;
+}
+
+.embos {
+    margin-bottom: 10px;
+    padding: 15px
+}
+
+
+
+.bootstrap-switch .bootstrap-switch-handle-on,
+.bootstrap-switch .bootstrap-switch-handle-off,
+.bootstrap-switch .bootstrap-switch-label {
+    height: auto;
+}
+
+
+
+
+#example td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+.red_row {
+    -webkit-animation: blink1 0.8s linear infinite;
+    -moz-animation: blink1 0.8s linear infinite;
+    -ms-animation: blink1 0.8s linear infinite;
+    -o-animation: blink1 0.8s linear infinite;
+    animation: blink1 0.8s linear infinite;
+}
+
+.ui-selecting {
+    background: #FECA40 !important
+}
+
+.ui-selected {
+    background: rgba(243, 152, 20, 0.22) !important
+}
+
+.input-group-xs>.form-control,
+.input-group-xs>.input-group-addon,
+.input-group-xs>.input-group-btn>.btn {
+    height: 22px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.dev-icon {
+    /*font-size: 1.5em*/
+    margin-right: 6px;
+}
+
+#example th {
+    font-size: 0.7em
+}
+
+.tooken-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 5px black;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    .tooken-menu {
+        left: 0px;
+        width: 100%;
+        transform: translateX(0);
+        border-radius: 0;
+        padding-top: 10px
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .affix {
+        position: static;
+    }
+}
+
+
+.t7676 {
+
+    z-index: 999
+}
+
+.st_toggle {
+    cursor: pointer;
+}
+
+.select-checkbox.sorting_disabled:before {
+    content: none !important;
+}
+
+
+.select-checkbox {
+
+    width: 1px !important;
+}
+
+
+
+.on .fa.fa-check-square-o {
+    display: inline-block;
+}
+
+
+
+.on .fa.fa-square-o {
+    display: none;
+}
+
+.off .fa.fa-check-square-o {
+    display: none;
+}
+
+.off .fa.fa-square-o {
+    display: inline-block;
+}
+
+
+.select_all_div {
+    text-align: center;
+}
+
+td.small_data {
+    font-size: 11px;
+}
+
+
+.st_toggle {
+    white-space: nowrap;
+    text-decoration: none;
+}
+.st_toggle:hover {
+    
+    text-decoration: none;
+}
+
+td.action {}
+
+.action {
+    white-space: nowrap;
+}
+
+
+
+input.form-control.input-sm {
+    height:  18px;
+}
+
+
+.small_data {
+    white-space:  pre;
+}
+
+.scrop_operation {
+    max-height: 600px;
+    overflow: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 18px;
+    border: 1px dotted #d8d8d8;
+    padding-top: 14px;
+}
+
+
+
+span.fa.fa-times.op-serch-clear {
+    position: absolute;
+    right: 9px;
+    top: 7px;
+    font-size: 22px;
+    z-index: 100
+}
+
+.form-group.op-serach {
+    position: relative;
+}
+
+
+.label33 {
+}
+
+.label33 {
+    position: absolute;
+    top: -10px;
+}
+
+.alert33 {
+    position: relative;
+    padding: 4px;
+    padding-top: 7px;
+}
+
+
+
+.switchOnSpan{
+    display: none;
+}
+.switchOffSpan{
+    display: none;
+}
+
+
+
+.custom-switch input[type="checkbox"]:checked+ label .switchOnSpan{
+    display: block;
+}
+
+
+.custom-switch input[type="checkbox"]:checked+ label .switchOffSpan{
+    display: none;
+}
+
+.custom-switch input[type="checkbox"]+ label .switchOffSpan{
+    display: block;
+}
+
+

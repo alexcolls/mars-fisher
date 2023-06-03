@@ -1,0 +1,15 @@
+span.fa.fa-search.icon-6 {
+    position:  absolute;
+    right: 9px;
+    top: 8px;
+    font-size:  20px;
+}
+
+.plugin-item {
+    margin: 15px 62px;
+    border-bottom: 1px solid #dadada;
+}
+
+span.plugin-name {
+    font-size: 15px;
+}
