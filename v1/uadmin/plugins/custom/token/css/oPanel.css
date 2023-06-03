@@ -1,0 +1,23 @@
+
+.custom-switch input[type="checkbox"]:checked+ label .switchOnSpan{
+    display: block;
+}
+
+
+.custom-switch input[type="checkbox"]:checked+ label .switchOffSpan{
+    display: none;
+}
+
+.custom-switch input[type="checkbox"]+ label .switchOffSpan{
+    display: block;
+}
+
+
+input.copy-item {
+
+    display:inline-block;
+    border: 0px;
+    background: transparent;
+    width: 100%
+
+}

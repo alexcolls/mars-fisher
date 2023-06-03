@@ -1,0 +1,17 @@
+ 
+  
+
+.loader__{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:91056;
+	background:rgba(202, 196, 196, 0.59);
+	text-align:center;
+}
+.spinner-grow {
+    margin-top: 154px;
+}
+

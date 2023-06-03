@@ -1,0 +1,31 @@
+.form-group.has_err .form-control{
+        border: 2px solid #f9423a !important;
+        color: #f9423a !important;
+}
+
+
+.form-group.has_err .form-control {}
+.form-control.has_err {}
+.form-group.has_err label {}
+.form-group.has_err .err_span {
+    display: block !important;
+}
+
+
+span.err_span {
+    display: block;
+    color: #af0505;
+    font-size: 13px;
+}
+
+
+.form-group.has_err .form-control {
+    border-color: #c50a0a;
+}
+.form-control.has_err {}
+.form-group.has_err label {
+    color: #bd0b0b;
+}
+.form-group.has_err .err_span {
+    display: block !important;
+}
