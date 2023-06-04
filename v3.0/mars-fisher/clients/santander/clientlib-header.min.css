@@ -1,0 +1,100 @@
+@font-face{font-family:"SantanderHeadline-Regular";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderHeadline-It";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderHeadline-Bold";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderHeadline-BoldIt";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Light";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Regular";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderText-Italic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Bold";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Bold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-SemiBold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff2") format("woff2")}
+@font-face{font-family:"SantanderMicroText-Italic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Light";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Regular";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot?#iefix") format("eot")}
+.header-wrapper{display:none}
+@media(min-width:1024px){.header-wrapper.header-wrapper--opacity{position:absolute;padding-top:0;background-image:linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0))}
+.header-wrapper.header-wrapper--opacity .header-quicklinks-item__text{color:#fff}
+.header-wrapper.header-wrapper--opacity .header-quicklinks__item.active a{font-family:"SantanderHeadline-Bold"}
+.header-wrapper.header-wrapper--opacity .header-quicklinks__item.active::after{background:#fff}
+.header-wrapper.header-wrapper--opacity .header-quicklinks__item:hover::after{background:#fff}
+}
+@media(min-width:1024px){.header-wrapper{display:block;position:relative;background-color:transparent;width:100%;z-index:2;height:140px}
+}
+@media(min-width:1024px){.header-wrapper .header-container{display:flex;height:140px;padding:0 32px}
+}
+.header-wrapper .header__logo{display:none}
+@media(min-width:1024px){.header-wrapper .header__logo{height:100%;display:block;padding-right:24px;display:flex;align-items:center}
+}
+@media(min-width:1024px){.header-wrapper .header__logo{padding-right:48px}
+}
+@media(min-width:1024px){.header-wrapper .header-logo__url{width:100px;height:25px;display:block}
+}
+@media(min-width:1024px){.header-wrapper .header-logo__url{min-width:192px;height:36px}
+}
+@media(min-width:1024px){.header-wrapper .header-logo__img{width:100%;height:100%;display:block}
+}
+.header-wrapper .header__quicklinks{display:none}
+@media(min-width:1024px){.header-wrapper .header__quicklinks{height:100%;display:flex;justify-content:flex-end;flex-wrap:wrap;padding-top:5px;align-items:center;position:relative}
+}
+@media(min-width:1024px){.header-wrapper .header__quicklinks{padding-top:0}
+}
+.header-wrapper .header__quicklinks-container{display:flex;flex-direction:row-reverse;flex-wrap:wrap;align-items:center;height:100%;padding-left:0;margin-bottom:0;position:relative}
+@media(min-width:1180px){.header-wrapper .header__quicklinks-container{padding-right:200px}
+}
+@media(min-width:1024px){.header-wrapper .header__quicklinks-container{padding-top:10px}
+}
+@media(min-width:1024px){.header-wrapper .header-quicklinks__item{display:flex;text-align:center;align-items:center;margin-left:23px;width:auto;max-width:70px;cursor:pointer;position:relative;min-height:46px}
+.header-wrapper .header-quicklinks__item.active a{font-family:"SantanderMicroText-Bold"}
+.header-wrapper .header-quicklinks__item.active::after{content:'';width:1px;height:24px;background:#ec0000;position:absolute;top:-40px;right:50%}
+.header-wrapper .header-quicklinks__item:hover::after{content:'';width:1px;height:18px;background:#ec0000;position:absolute;top:-40px;right:50%}
+.header-wrapper .header-quicklinks__item:last-child{margin-left:0}
+}
+@media(min-width:1024px) and (min-width:1024px){.header-wrapper .header-quicklinks__item.active::after{top:-52px}
+}
+@media(min-width:1024px) and (min-width:1024px){.header-wrapper .header-quicklinks__item:hover::after{top:-52px}
+}
+@media(min-width:1024px){.header-wrapper .header-quicklinks__item{max-width:110px}
+}
+.header-wrapper .header-quicklinks__item:before{display:none}
+@media(min-width:1024px){.header-wrapper .header-quicklinks-item__text{font-family:"SantanderMicroText-Regular";font-size:10px;line-height:13px;color:#000;text-transform:uppercase}
+}
+@media(min-width:1024px){.header-wrapper .header-quicklinks-item__text{font-size:15px;line-height:19px}
+}
+.header-wrapper .header-container-redirector{display:flex;flex-wrap:wrap;justify-content:flex-end;width:100%}
+.header-wrapper .header__redirector{display:none}
+.header-wrapper .header__redirector .cmp-text p{color:#fff;padding-bottom:0}
+@media(min-width:1024px){.header-wrapper .header__redirector{display:flex;justify-content:flex-end;align-items:center;padding-right:32px;background:rgba(0,0,0,0.3);height:0;position:relative;top:-60px}
+.header-wrapper .header__redirector .cmp-text{margin-right:24px}
+.header-wrapper .header__redirector .cmp-text p{color:#fff}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown-wrapper{margin:0}
+.header-wrapper .header__redirector .dropdown-wrapper .dropdown-menu{padding:0}
+.header-wrapper .header__redirector .dropdown-wrapper .dropdown-menu a{margin-top:0;padding:8px 16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown-wrapper{padding:0}
+.header-wrapper .header__redirector .dropdown-wrapper .dropdown-menu{border:0;box-shadow:0 1px 2px 0 #444;padding:0;max-height:80vh}
+.header-wrapper .header__redirector .dropdown-wrapper .dropdown-menu a{padding:8px 16px}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__container{width:100%;background-color:#ec0000;border:0;margin-bottom:0}
+.header-wrapper .header__redirector .dropdown__container::after{right:28px}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__container::after{display:block;right:45px;z-index:10}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__container .btn{color:#fff;background-color:#ec0000;font-family:"SantanderHeadline-Bold";font-size:10px;letter-spacing:1px;line-height:14px;text-align:center;padding:8px 44px 8px 16px;max-width:100%;z-index:0}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__container .btn{font-size:16px;letter-spacing:1.6px;line-height:23px;padding:11px 70px 11px 32px}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__container .btn.dropdown-toggle{padding:0;top:0;width:28px;height:32px;z-index:2}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__container .btn.dropdown-toggle{right:0;height:46px;width:46px}
+}
+.header-wrapper .header__redirector .dropdown__items .header-redirector__item:hover{background-color:#eff6f9;color:#000}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__items .header-redirector__item span{color:#000;font-family:"SantanderHeadline-Regular";font-size:10px;letter-spacing:.43px;line-height:19px;padding-left:10px}
+}
+@media(min-width:1024px){.header-wrapper .header__redirector .dropdown__items .header-redirector__item span{font-size:14px;letter-spacing:.6px}
+}
+.header-wrapper .header__redirector .header-redirector-item__img{height:20px;width:20px;border-radius:50%;max-width:100%;max-height:100%;background-color:#dbdbdb}

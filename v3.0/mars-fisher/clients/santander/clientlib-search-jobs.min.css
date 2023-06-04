@@ -1,0 +1,75 @@
+@font-face{font-family:"SantanderHeadline-Regular";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderHeadline-It";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderHeadline-Bold";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderHeadline-BoldIt";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Light";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Regular";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderText-Italic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Bold";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Bold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-SemiBold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff2") format("woff2")}
+@font-face{font-family:"SantanderMicroText-Italic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Light";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Regular";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot?#iefix") format("eot")}
+.search-jobs #tb-widget-search:focus{outline:0}
+.search-jobs #tb-widget-search::placeholder{font-family:"SantanderMicroText-Light";color:#000;opacity:1}
+.search-jobs #tb-widget-search :-ms-input-placeholder{font-family:"SantanderMicroText-Light";color:#000}
+.search-jobs #tb-widget-search ::-ms-input-placeholder{font-family:"SantanderMicroText-Light";color:#000}
+.search-jobs .content-search-job-wrapper.primaryColor{background-color:rgba(222,237,242,0.3);padding:16px 0}
+.search-jobs .content-search-job-wrapper.secondaryColor{background-color:#fbfdfd;padding:16px 0}
+.search-jobs .title{font-family:"SantanderMicroText-Regular";font-size:30px;line-height:40px;color:#000;margin:32px 0 24px;padding:0 0 24px;position:relative}
+@media(max-width:480px){.search-jobs .title{font-size:20px;line-height:29px;margin:24px 0 0;padding:0 0 40px}
+}
+.search-jobs .title:after{content:'';display:block;background:#ec0000;height:2px;width:36px;position:absolute;bottom:0}
+@media(max-width:480px){.search-jobs .title:after{width:24px}
+}
+.search-jobs .content-search-job{margin:8px 0 32px;width:100%;height:64px;display:flex;align-items:center;font-size:24px;font-family:"SantanderMicroText-Regular";border:1px solid #deedf2;background:#fff;-webkit-box-shadow:0 0 16px 0 rgba(155,195,211,0.2);-moz-box-shadow:0 0 16px 0 rgba(155,195,211,0.2);box-shadow:0 0 16px 0 rgba(155,195,211,0.2)}
+@media(max-width:480px){.search-jobs .content-search-job{height:48px}
+}
+.search-jobs .content-search-job #tb-widget-search{display:block;border:0;height:100%;width:100%;color:#000;font-family:"SantanderMicroText-Regular";font-size:24px;font-weight:300;line-height:34px;padding:15px 0 15px 16px}
+@media(max-width:367px){.search-jobs .content-search-job #tb-widget-search{padding-left:16px;font-size:12px}
+}
+@media(max-width:480px){.search-jobs .content-search-job #tb-widget-search{font-size:16px;font-weight:300;line-height:48px;padding:0 0 0 10px}
+}
+.search-jobs .content-search-job #tb-widget-search:focus{outline:0}
+.search-jobs .content-search-job #tb-search-widget-button{background:0;border:0;height:50px;width:50px;margin:7px 7px 7px 0;padding:0}
+@media(max-width:480px){.search-jobs .content-search-job #tb-search-widget-button{margin:0;padding:17px 12px 17px 0;height:48px;width:48px}
+}
+.search-jobs .content-search-job #tb-search-widget-button .icon{display:block;font-size:40px;line-height:50px;cursor:pointer}
+@media(max-width:480px){.search-jobs .content-search-job #tb-search-widget-button .icon{font-size:20px;line-height:14px}
+}
+.banner-complex.aem-GridColumn{overflow:visible;margin-bottom:64px}
+.banner-complex .bannerJob{position:absolute;margin-top:-32px;left:0;right:0;z-index:1}
+@media(max-width:480px){.banner-complex .bannerJob{margin-top:-25px}
+}
+.banner-complex .bannerJob #tb-widget-search:focus{outline:0}
+.banner-complex .bannerJob #tb-widget-search::placeholder{font-family:"SantanderMicroText-Light";color:#000;opacity:1}
+.banner-complex .bannerJob #tb-widget-search :-ms-input-placeholder{font-family:"SantanderMicroText-Light";color:#000}
+.banner-complex .bannerJob #tb-widget-search ::-ms-input-placeholder{font-family:"SantanderMicroText-Light";color:#000}
+.banner-complex .bannerJob .content-search-job-wrapper.primaryColor{background-color:rgba(222,237,242,0.3);padding:16px 0}
+.banner-complex .bannerJob .content-search-job-wrapper.secondaryColor{background-color:#fbfdfd;padding:16px 0}
+.banner-complex .bannerJob .title{font-family:"SantanderMicroText-Regular";font-size:30px;line-height:40px;color:#000;margin:32px 0 24px;padding:0 0 24px;position:relative}
+@media(max-width:480px){.banner-complex .bannerJob .title{font-size:20px;line-height:29px;margin:24px 0 0;padding:0 0 40px}
+}
+.banner-complex .bannerJob .title:after{content:'';display:block;background:#ec0000;height:2px;width:36px;position:absolute;bottom:0}
+@media(max-width:480px){.banner-complex .bannerJob .title:after{width:24px}
+}
+.banner-complex .bannerJob .content-search-job{margin:0;width:100%;height:64px;display:flex;align-items:center;font-size:24px;font-family:"SantanderMicroText-Regular";border:1px solid #deedf2;background:#fff;-webkit-box-shadow:0 0 16px 0 rgba(155,195,211,0.2);-moz-box-shadow:0 0 16px 0 rgba(155,195,211,0.2);box-shadow:0 0 16px 0 rgba(155,195,211,0.2)}
+@media(max-width:480px){.banner-complex .bannerJob .content-search-job{height:48px}
+}
+.banner-complex .bannerJob .content-search-job #tb-widget-search{display:block;border:0;height:100%;width:100%;color:#000;font-family:"SantanderMicroText-Regular";font-size:24px;font-weight:300;line-height:34px;margin:15px 0 15px 16px}
+@media(max-width:367px){.banner-complex .bannerJob .content-search-job #tb-widget-search{padding-left:16px;font-size:12px}
+}
+@media(max-width:480px){.banner-complex .bannerJob .content-search-job #tb-widget-search{font-size:16px;font-weight:300;line-height:48px;padding:0 0 0 10px}
+}
+.banner-complex .bannerJob .content-search-job #tb-widget-search:focus{outline:0}
+.banner-complex .bannerJob .content-search-job #tb-search-widget-button{background:0;border:0;height:50px;width:50px;margin:7px 7px 7px 0;padding:0}
+@media(max-width:480px){.banner-complex .bannerJob .content-search-job #tb-search-widget-button{margin:0;padding:17px 12px 17px 0;height:48px;width:48px}
+}
+.banner-complex .bannerJob .content-search-job #tb-search-widget-button .icon{display:block;font-size:40px;line-height:50px;cursor:pointer}
+@media(max-width:480px){.banner-complex .bannerJob .content-search-job #tb-search-widget-button .icon{font-size:20px;line-height:14px}
+}

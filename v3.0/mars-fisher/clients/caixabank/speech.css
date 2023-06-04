@@ -1,0 +1,101 @@
+.content-mic-button {
+    display:inline-block;
+	position: relative;
+}
+
+.textbox-with-mic {
+	padding-right: 17px !important;
+}
+
+.mic-button {
+	position: absolute;
+	right: 10px;
+    top: 50%;
+    margin-top: -9px;
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+}
+
+.mic-button.active {
+	-webkit-animation: speech 1s infinite;
+	animation: speech 1s infinite;
+}
+
+@-webkit-keyframes speech {
+	0%, 100% {
+		-webkit-filter: none;
+		filter: none;
+	}
+	50% { 
+		-webkit-filter: invert(100%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+		filter: invert(100%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+	}
+}
+
+.img-mic-button {
+	position: absolute;
+	right: 10px;
+    top: 50%;
+    margin-top: -9px;
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/microphone.png');
+}
+
+.img-mic-button.active {
+	background-image: url(../img/microphone_on.png);
+}
+
+/*** TOOLTIP **/
+.mic-tooltip {
+    display:inline-block;
+    position:relative;
+}
+
+.mic-tooltip .mic-tooltip-bottom {
+    min-width:100px; 
+    top:40px;
+    right:18px;
+    transform:translate(50%, 0);
+    padding:10px 20px;
+    color:#444444;
+    background-color:#EEEEEE;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+
+.mic-tooltip .mic-tooltip-bottom.show {
+    visibility:visible; opacity:1;
+}
+
+.mic-tooltip .mic-tooltip-bottom i {
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.mic-tooltip .mic-tooltip-bottom i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color:#EEEEEE;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}

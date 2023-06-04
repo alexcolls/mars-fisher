@@ -1,0 +1,110 @@
+@font-face{font-family:"SantanderHeadline-Regular";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderHeadline-It";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderHeadline-Bold";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderHeadline-BoldIt";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Light";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Regular";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderText-Italic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Bold";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Bold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-SemiBold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff2") format("woff2")}
+@font-face{font-family:"SantanderMicroText-Italic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Light";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Regular";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot?#iefix") format("eot")}
+.story-highlighted--wrapper{margin:16px 0}
+@media(min-width:1024px){.story-highlighted--wrapper{margin:32px 0}
+}
+@media(min-width:767px){.story-highlighted--wrapper{display:flex}
+.story-highlighted--wrapper.no-image{width:100%}
+.story-highlighted--wrapper.no-image .story-highlighted--container-text{width:100%;padding-left:0}
+}
+.story-highlighted--wrapper.highlight{background-color:#f6fafc}
+.story-highlighted--wrapper.highlight .story-highlighted__no-image{margin-bottom:0}
+.story-highlighted--wrapper.highlight .story-highlighted--container-text{padding:16px}
+@media(min-width:767px){.story-highlighted--wrapper.highlight .story-highlighted--container-text{padding:32px}
+}
+.story-highlighted--wrapper.simple.story-highlighted--wrapper{margin-top:24px;margin-bottom:0}
+.story-highlighted--wrapper.simple.story-highlighted--wrapper:first-child{margin-top:16px}
+@media(min-width:1024px){.story-highlighted--wrapper.simple.story-highlighted--wrapper:first-child{margin-top:32px}
+}
+.story-highlighted--wrapper.simple.story-highlighted--wrapper::last-child{margin-bottom:16px}
+@media(min-width:1024px){.story-highlighted--wrapper.simple.story-highlighted--wrapper::last-child{margin-bottom:32px}
+}
+.story-highlighted--wrapper.simple .story-highlighted__image,.story-highlighted--wrapper.simple .story-highlighted__no-image,.story-highlighted--wrapper.simple .story-highlighted__description{display:none}
+.story-highlighted--wrapper.simple .story-highlighted--container-text{width:100%;padding-bottom:25px;padding-left:0;position:relative}
+.story-highlighted--wrapper.simple .story-highlighted--container-text:after{content:"";height:1.1px;width:100%;background:#cedee7;bottom:0;position:absolute;display:block}
+@media(min-width:767px){.story-highlighted--wrapper.simple .story-highlighted--container-text .story-highlighted--container-top,.story-highlighted--wrapper.simple .story-highlighted--container-text .story-highlighted__tags,.story-highlighted--wrapper.simple .story-highlighted--container-text .story-highlighted__date{padding-bottom:0}
+}
+@media(min-width:767px){.story-highlighted--wrapper.simple .story-highlighted--container-text .story-highlighted__title{padding-top:8px}
+}
+.story-highlighted--wrapper .video-wrapper{margin:0;align-content:center;background:#000;overflow:hidden}
+@media(min-width:767px){.story-highlighted__image{height:350px;width:50%;min-height:200px;cursor:pointer}
+}
+@media(min-width:1024px){.story-highlighted__image{height:unset}
+}
+.story-highlighted__image a{width:100%;height:100%;display:block}
+.story-highlighted__image img{width:100%;height:100%;object-fit:cover;object-position:center}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.story-highlighted__image img{font-family:'object-fit: cover; object-position: center;'}
+}
+.story-highlighted__no-image{border-bottom:1px solid #cedee7}
+@media(min-width:767px){.story-highlighted--container-top{padding-top:32px;padding-bottom:12px}
+}
+.story-highlighted--container-text{padding:16px 0}
+@media(min-width:767px){.story-highlighted--container-text{padding:24px 0;width:50%;padding:0 0 0 32px;display:flex;flex-direction:column;justify-content:center;height:100%}
+}
+.story-highlighted__tags{float:left;padding-bottom:4px;font-size:14px}
+@media(min-width:767px){.story-highlighted__tags{padding-bottom:12px}
+}
+.story-highlighted__tags a{color:#444;font-family:"SantanderMicroText-Regular";line-height:20px;text-transform:uppercase;position:relative;padding-right:8px}
+.story-highlighted__tags a:last-child:before{content:""}
+.story-highlighted__tags a:before{content:"·";position:absolute;right:0;top:0}
+.story-highlighted__tags a:hover{color:#ec0000}
+.story-highlighted__tags a:hover:before{color:#444}
+.story-highlighted__tags a.tags--bold{font-family:"SantanderMicroText-Bold"}
+.story-highlighted__date{color:#444;font-family:"SantanderMicroText-Italic";line-height:20px;float:right;width:100%;text-align:left;padding-bottom:4px}
+@media(min-width:767px){.story-highlighted__date{padding-bottom:12px}
+}
+.story-highlighted__title a{font-family:"SantanderMicroText-Bold";font-size:20px;line-height:29px;display:inline-block;width:100%;padding:4px 0;color:#000}
+@media(min-width:767px){.story-highlighted__title a{padding-bottom:8px;padding-top:0;font-size:26px;line-height:36px}
+.story-highlighted__title a:hover{text-decoration:underline;cursor:pointer}
+}
+.story-highlighted__description,.story-highlighted__entry-text{font-family:"SantanderMicroText-Regular";font-size:14px;line-height:24px;padding:8px 0 12px 0;color:#444}
+@media(min-width:767px){.story-highlighted__description,.story-highlighted__entry-text{font-size:16px;padding-top:8px;line-height:28px;padding-bottom:0}
+}
+.story-highlighted__description ul li,.story-highlighted__entry-text ul li{position:relative}
+.story-highlighted__description ul li:before,.story-highlighted__entry-text ul li:before{content:"";height:4px;width:4px;border-radius:50%;color:#ec0000;background-color:#ec0000;left:-16px;top:10px;position:absolute}
+.story-highlighted__description ol,.story-highlighted__entry-text ol{list-style:none;counter-reset:cuenta-parrafos}
+.story-highlighted__description ol>li,.story-highlighted__entry-text ol>li{position:relative}
+.story-highlighted__description ol>li:before,.story-highlighted__entry-text ol>li:before{content:counter(cuenta-parrafos) ". ";counter-increment:cuenta-parrafos;color:#ec0000;position:absolute;left:-20px}
+.story-highlighted__hashtags{padding-top:12px}
+@media(min-width:767px){.story-highlighted__hashtags{padding-top:16px}
+}
+.story-highlighted__hashtags a{color:#444;font-size:12px;line-height:18px;position:relative;padding-left:6px;margin-left:8px;cursor:pointer}
+.story-highlighted__hashtags a:first-child{margin-left:0}
+.story-highlighted__hashtags a:before{content:"#";position:absolute;left:0;top:0}
+.story-highlighted__hashtags a:hover{color:#ec0000}
+.columns .col.py- .aem-Grid.aem-Grid--12{padding-left:0}
+@media(min-width:767px){.columns .col.py- .aem-Grid.aem-Grid--12 .story-highlighted__image{height:auto}
+}
+.columns .col-sm-4 .story-highlighted--wrapper,.columns .col-sm-5 .story-highlighted--wrapper,.columns .col-sm-6 .story-highlighted--wrapper,.columns .col-sm-7 .story-highlighted--wrapper,.columns .col-sm-8 .story-highlighted--wrapper{flex-direction:column}
+.columns .col-sm-4 .story-highlighted__image,.columns .col-sm-5 .story-highlighted__image,.columns .col-sm-6 .story-highlighted__image,.columns .col-sm-7 .story-highlighted__image,.columns .col-sm-8 .story-highlighted__image{width:100%}
+@media(min-width:767px){.columns .col-sm-4 .story-highlighted__image,.columns .col-sm-5 .story-highlighted__image,.columns .col-sm-6 .story-highlighted__image,.columns .col-sm-7 .story-highlighted__image,.columns .col-sm-8 .story-highlighted__image{height:350px}
+}
+.columns .col-sm-4 .story-highlighted--container-text,.columns .col-sm-5 .story-highlighted--container-text,.columns .col-sm-6 .story-highlighted--container-text,.columns .col-sm-7 .story-highlighted--container-text,.columns .col-sm-8 .story-highlighted--container-text{width:100%;padding-left:0}
+.columns .col-sm-4 .highlight .story-highlighted--container-text,.columns .col-sm-5 .highlight .story-highlighted--container-text,.columns .col-sm-6 .highlight .story-highlighted--container-text,.columns .col-sm-7 .highlight .story-highlighted--container-text,.columns .col-sm-8 .highlight .story-highlighted--container-text{padding-left:16px}
+@media(min-width:767px){.columns .col-sm-4 .highlight .story-highlighted--container-text,.columns .col-sm-5 .highlight .story-highlighted--container-text,.columns .col-sm-6 .highlight .story-highlighted--container-text,.columns .col-sm-7 .highlight .story-highlighted--container-text,.columns .col-sm-8 .highlight .story-highlighted--container-text{padding:16px}
+}
+@media(min-width:1024px){.columns .col-sm-4 .highlight .story-highlighted--container-text,.columns .col-sm-5 .highlight .story-highlighted--container-text,.columns .col-sm-6 .highlight .story-highlighted--container-text,.columns .col-sm-7 .highlight .story-highlighted--container-text,.columns .col-sm-8 .highlight .story-highlighted--container-text{padding:32px}
+}
+@media(min-width:767px){.columns .col-sm-4 .story-highlighted__title a,.columns .col-sm-5 .story-highlighted__title a,.columns .col-sm-6 .story-highlighted__title a,.columns .col-sm-7 .story-highlighted__title a,.columns .col-sm-8 .story-highlighted__title a{font-size:26px}
+}
+.columns .columns-component .highlight .story-highlighted--container-top{padding-top:0}
+@media(min-width:767px){.columns .columns-component .story-highlighted--container-top{padding-top:32px}
+}
+.columns .columns-component .simple .story-highlighted--container-top{padding-top:0}
+@media(min-width:767px){.columns .columns-component .simple .story-highlighted--container-top,.columns .columns-component .simple .story-highlighted__tags,.columns .columns-component .simple .story-highlighted__date{padding-bottom:0}
+}

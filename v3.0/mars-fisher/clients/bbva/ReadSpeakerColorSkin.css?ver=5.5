@@ -1,0 +1,181 @@
+.rsbtn_colorskin a,
+.rsbtn_colorskin span {
+    position: relative;
+    text-decoration: none;
+	display:block;
+}
+
+.rsbtn_colorskin .rsbtn_left .rsbtn_text span,
+.rsbtn_colorskin .rspart .rsbtn_btnlabel {
+    display: none;
+}
+
+.rsbtn_colorskin .rsimg {
+    background: url(ReadSpeakerColorSkin.png) no-repeat;
+}
+
+.rsbtn_colorskin .rspart {
+    float: left;
+    margin-left: 2px;
+}
+
+.rsbtn_colorskin .rsdefloat {
+    clear: both;
+}
+
+.rsbtn_colorskin .rspart.rsbutton {
+    padding-left: 0;
+    background-color: #000;
+    width: 18px;
+    height: 18px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transition: background-color .2s ease;
+    -webkit-transition: background-color .2s ease;
+    -o-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+}
+
+.rsbtn_colorskin .rspart.rsbutton:hover {
+    background-color: #ccc;
+}
+
+.rsbtn_colorskin .rsbtn_box {
+    margin: 1px;
+}
+
+.rsbtn_colorskin .rsbtn_left .rsbtn_text {
+    background: url(ico-mic.png) no-repeat;
+    padding-left: 20px;
+    height: 20px;
+    color: #000;
+}
+
+.rsbtn_colorskin.rspopup .rsbtn_left .rsbtn_text {
+    background: url(icon-mic.png) no-repeat;
+}
+
+.rsbtn_colorskin .rsbtn_exp.rsimg.rspart {
+    background: 0 0;
+    float: none;
+    display: none;
+}
+
+.rsbtn_colorskin.rsexpanded .rsbtn_exp.rsimg {
+    display: block;
+    margin-top: 4px;
+    height: 22px;
+}
+
+.rsbtn_colorskin .rsbtn_pause {
+    background-position: -18px -18px;
+}
+
+.rsbtn_colorskin.rspaused .rsbtn_pause,
+.rsbtn_colorskin.rsstopped .rsbtn_pause {
+    background-position: -18px 0px;
+}
+
+.rsbtn_colorskin .rsbtn_stop {
+    background-position: -18px -36px;
+}
+
+.rsbtn_colorskin .rsbtn_progress_container {
+    border: 1px solid #000;
+    width: 50px;
+    height: 10px;
+    margin-top: 3px;
+    margin-left: 4px;
+    background-image: none;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.rsbtn_colorskin .rsbtn_progress_handle.rsimg {
+    position: absolute;
+    background-color: #000;
+    top: -3px;
+    left: -3px;
+    width: 6px;
+    height: 16px;
+    background-image: none;
+}
+
+.rsbtn_colorskin .rsbtn_progress_played {
+    position: absolute;
+    height: 100%;
+    background-color: #ccc;
+    background-image: none;
+}
+
+.rsbtn_colorskin .rsbtn_volume {
+    margin-left: 4px;
+    background-position: -18px -54px;
+}
+
+.rsbtn_colorskin .rsbtn_volume_container {
+    position: absolute;
+    display: none;
+    width: 18px;
+    height: 40px;
+    border: 1px solid #000;
+    background: #fff;
+    right: 41px;
+    bottom: 23px;
+    padding-top: 1px;
+}
+
+.rsbtn_colorskin .rsbtn_volume_slider {
+    width: 6px;
+    height: 30px;
+    margin: 5px;
+    background: #ccc;
+}
+
+.rsbtn_colorskin .rsbtn_volume_handle.rsimg {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 12px;
+    height: 6px;
+    background: #000;
+}
+
+.rsbtn_colorskin .rsbtn_dl {
+    background-position: -18px -72px;
+}
+
+.rsbtn_colorskin .rsbtn_settings {
+    display: none;
+    background-position: -18px -90px;
+}
+
+.rsbtn_colorskin .rsbtn_closer {
+    margin-left: 2px;
+    background-position: -18px -108px;
+}
+
+.rsbtn_colorskin.rspopup {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 5px #777;
+    display: none;
+}
+
+.rsbtn_colorskin.rspopup.rscompact {
+    opacity: 0;
+}
+
+.rsbtn_exp.rsimg.rspart span.rsbtn_status_overlay {
+    position: absolute;
+    z-index: 140;
+    top: 1px;
+    width: auto;
+    height: auto;
+    background: #eee;
+    opacity: .9;
+    left: auto;
+}
+
+.rsbtn_colorskin.rsfloating { display: block; }

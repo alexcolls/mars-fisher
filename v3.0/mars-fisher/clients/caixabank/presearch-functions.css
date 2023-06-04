@@ -1,0 +1,40 @@
+.ps-save-searches {
+     background : none !important;
+}
+
+.ps-save-searches ul li a:hover {
+     color: #007eae !important;
+}
+
+.ps-save-searches ul li .ps-item-title {
+     margin-bottom: 0;
+}
+
+.ps-save-searches ul li .ps-item-title a {
+     color: #52188c;
+}
+
+.ps-save-searches .ps-content li {
+     display: flex;
+}
+
+.ps-save-searches .ps-content li .ps-item-remove {
+     flex-grow: 1;
+     margin-bottom: 0;
+     font-size: 1.4rem;
+     font-family: 'Arial Bold',Helvetica,sans-serif;
+}
+
+.ps-save-searches .ps-content li .ps-item-remove a {
+     display: inline;
+     float: right;
+     cursor: pointer;
+     color: #555;
+}
+
+.ps-save-searches .ps-content li .ps-item-image {
+     background: url('images/icon_clock.png') no-repeat right 11px;
+     background-size: 16px;
+     height: auto;
+     width: 22px;
+}

@@ -1,0 +1,139 @@
+@font-face{font-family:"SantanderHeadline-Regular";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderHeadline-It";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderHeadline-Bold";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderHeadline-BoldIt";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Light";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Regular";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderText-Italic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Bold";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Bold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-SemiBold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff2") format("woff2")}
+@font-face{font-family:"SantanderMicroText-Italic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Light";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Regular";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot?#iefix") format("eot")}
+@media(min-width:1024px){.footer-links-wrapper--editor .footer-links-wrapper .list-links-complex{display:block;float:left}
+}
+.footer-links-wrapper{margin-top:16px;background-color:#f7f7f7}
+@media(min-width:1024px){.footer-links-wrapper{margin-top:32px}
+}
+.footer-links-wrapper .footer-links{padding-left:0}
+@media(min-width:1024px){.footer-links-wrapper .footer-links{display:flex}
+}
+.footer-links-wrapper .footer-links__block{list-style:none}
+@media(min-width:1024px) and (-ms-high-contrast:none),(-ms-high-contrast:active){.footer-links-wrapper .footer-links__block{width:100%}
+}
+.footer-links-wrapper .footer-links__block:before{display:none}
+.footer-links-wrapper .list-links-complex::before{display:none}
+@media(min-width:1024px){.footer-links-wrapper .list-links-complex{display:flex;justify-content:center;padding:60px 0}
+}
+.footer-links-wrapper .footer-link__collapsible-header{width:100%}
+.footer-links-wrapper .footer-link__collapsible-header.active{border-bottom:1px solid #ebebeb}
+.footer-links-wrapper .footer-link__collapsible-header.active .footer-link-collapsible-header__title{border-bottom:0}
+.footer-links-wrapper .footer-link__collapsible-header.active .footer-link-collapsible-header__title .icon{transform:rotate(180deg);top:35%}
+.footer-links-wrapper .footer-link__collapsible-header.active .footer-link__collapsible-body{display:block;opacity:1;padding-bottom:25px}
+.footer-links-wrapper .footer-link-collapsible-header__title{font-family:"SantanderHeadline-Bold";font-size:18px;color:#000;line-height:23px;text-transform:uppercase;position:relative;padding:21px 0;border-bottom:1px solid #ebebeb}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-header__title{font-size:16px;color:#333a42;margin-bottom:50px;position:relative;border:0;padding:10px 0}
+.footer-links-wrapper .footer-link-collapsible-header__title:after{content:"";height:3px;width:39px;background:#ec0000;position:absolute;bottom:0;left:0}
+}
+.footer-links-wrapper .footer-link-collapsible-header__title .icon{position:absolute;color:#ec0000;right:0;top:50%;transform:translate(0,-50%);-webkit-transform:translate(0,-50%)}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-header__title .icon{display:none}
+}
+.footer-links-wrapper .footer-link__collapsible-body{display:none;opacity:0;margin-left:0;padding:8px 18px}
+@media(min-width:1024px){.footer-links-wrapper .footer-link__collapsible-body{display:block;opacity:1;padding:0 18px;padding-left:0}
+}
+.footer-links-wrapper .footer-link__collapsible-body li{list-style:none;position:relative;padding-bottom:5px;cursor:pointer}
+@media(min-width:1024px){.footer-links-wrapper .footer-link__collapsible-body li{padding-bottom:0}
+}
+.footer-links-wrapper .footer-link__collapsible-body li::before{content:none;position:absolute;height:0;width:0}
+.footer-links-wrapper .footer-link__collapsible-body .footer-link-collapsible-body--hasChildren::before{content:"+";position:absolute;height:0;width:0;left:-2px;top:0;color:#ec0000;font-size:16px}
+@media(min-width:1024px){.footer-links-wrapper .footer-link__collapsible-body .footer-link-collapsible-body--hasChildren::before{top:4px}
+}
+.footer-links-wrapper .footer-link-collapsible-body__url{font-family:"SantanderMicroText-Regular";font-size:18px;color:#6c6c6c;cursor:pointer}
+.footer-links-wrapper .footer-link-collapsible-body__url .footer-link-collapsible-body-subitem-url__title{padding-left:18px}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-body__url .footer-link-collapsible-body-subitem-url__title{padding-left:10px}
+}
+.footer-links-wrapper .footer-link-collapsible-body__url .footer-link-collapsible-body-subitem-url__title:hover{color:#ec0000}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-body__url{font-size:16px;line-height:32px}
+}
+.footer-links-wrapper .footer-link-collapsible-body__url>.footer-link-collapsible-body-subitem-url__title .icon{display:none}
+.footer-links-wrapper .footer-link-collapsible-body-url__title{display:block;position:relative}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-body-url__title{cursor:pointer;line-height:26px}
+.footer-links-wrapper .footer-link-collapsible-body-url__title:hover{color:#ec0000}
+}
+.footer-links-wrapper .footer-link-collapsible-body-url__title .icon{color:#ec0000;transform:rotate(-90deg);position:absolute;bottom:2px;padding-left:5px;font-size:13px}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-body-url__title .icon{bottom:3px}
+}
+.footer-links-wrapper .footer-link-collapsible-body__subitem{display:none;padding-left:18px}
+.footer-links-wrapper .footer-link-collapsible-body__subitem .footer-link-collapsible-body-subitem-url__title{color:#6c6c6c;position:relative}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-body__subitem .footer-link-collapsible-body-subitem-url__title:hover{color:#ec0000}
+}
+.footer-links-wrapper .footer-link-collapsible-body__subitem .footer-link-collapsible-body-subitem-url__title .icon{color:#ec0000;transform:rotate(-90deg);position:absolute;bottom:2px;padding-left:5px;font-size:13px}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-body__subitem .footer-link-collapsible-body-subitem-url__title .icon{right:-17px;bottom:0}
+}
+.footer-links-wrapper .footer-link-collapsible-body__subitem li::before{content:"";height:4px;width:4px;border-radius:50%;color:#ec0000;background-color:#ec0000;left:0;top:10px}
+@media(min-width:1024px){.footer-links-wrapper .footer-link-collapsible-body__subitem li::before{top:15px;left:-3px}
+}
+.footer-links-wrapper .footer-link-collapsible-body__subitem.active{display:block}
+.footer-logos-wrapper{padding:33px 0;text-align:center;max-width:310px;margin:auto}
+.footer-logos-wrapper .container-page{display:flex;justify-content:center}
+@media(min-width:767px){.footer-logos-wrapper{max-width:95%}
+}
+@media(min-width:1024px){.footer-logos-wrapper{max-width:100%;text-align:center;padding:40px 0}
+}
+.footer-logos-wrapper .footer-logos__item{height:60px;max-width:88px;display:inline-block;margin-right:16px;margin-bottom:15px;display:flex}
+.footer-logos-wrapper .footer-logos__item:last-child{margin-right:0}
+@media(min-width:767px){.footer-logos-wrapper .footer-logos__item{margin-right:40px;margin-bottom:0}
+}
+@media(min-width:1024px){.footer-logos-wrapper .footer-logos__item{margin-right:32px;max-height:50px;width:auto;max-width:200px;cursor:pointer}
+}
+.footer-logos-wrapper .footer-logos__item:nth-last-child(-n+3){margin-bottom:0}
+.footer-logos-wrapper .footer-logos-item__url{display:block}
+@media(min-width:1024px){.footer-logos-wrapper .footer-logos-item__url{width:100%}
+}
+.footer-logos-wrapper .footer-logos-item-url__img{height:100%;width:100%;object-fit:contain;object-position:center}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.footer-logos-wrapper .footer-logos-item-url__img{font-family:'object-fit: contain; object-position: center;'}
+}
+.footer-copyright-wrapper{padding:34px 0;background-color:#ec0000;text-align:center}
+@media(min-width:1024px){.footer-copyright-wrapper{padding:0;height:130px}
+}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright-container{display:flex;align-items:center;height:130px}
+}
+.footer-copyright-wrapper .footer-copyright__logo{height:22px}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright__logo{height:auto;min-width:16.6%;height:28px;float:left}
+}
+.footer-copyright-wrapper .footer-copyrigth-logo__url{display:unset}
+.footer-copyright-wrapper .footer-copyright-logo__img{height:100%;width:100%;object-fit:contain;object-position:center;display:block}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright-logo__img{object-position:left}
+}
+.footer-copyright-wrapper .footer-copyright__text{display:flex;width:100%}
+.footer-copyright-wrapper .footer-copyright__text .cmp-text{color:#fff;font-family:"SantanderMicroText-Bold";font-size:11px;line-height:1.2;padding:24px 0;width:100%}
+.footer-copyright-wrapper .footer-copyright__text .cmp-text p{padding-bottom:0}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright__text .cmp-text{height:100%;float:left;text-align:center;padding:0;display:flex;justify-content:center;align-items:center;margin:0 28px 0 35px}
+}
+@media(min-width:1024px) and (-ms-high-contrast:none),(-ms-high-contrast:active){.footer-copyright-wrapper .footer-copyright__text .cmp-text .container-page{width:100%}
+}
+.footer-copyright-wrapper .footer-copyright__rrss{margin:auto;display:flex;justify-content:center;align-items:center;max-width:220px;flex-flow:wrap}
+@media(min-width:767px){.footer-copyright-wrapper .footer-copyright__rrss{max-width:100%}
+}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright__rrss{text-align:right;min-width:21%;height:100%;justify-content:flex-start}
+}
+.footer-copyright-wrapper .footer-copyright-rrss--center{display:flex;justify-content:center;align-items:center;max-width:220px;flex-flow:wrap}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright-rrss--center{height:100%;vertical-align:middle;display:flex;align-items:center;justify-content:flex-start;align-content:center;flex-flow:wrap;line-height:0}
+}
+.footer-copyright-wrapper .footer-copyright-rrss__item{width:24px;height:24px;display:inline-block;margin:0 8px 8px 8px}
+.footer-copyright-wrapper .footer-copyright-rrss__item:nth-child(n+6){margin-bottom:0}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright-rrss__item:nth-child(n+6){margin-top:0;margin-bottom:8px}
+}
+@media(min-width:1025px){.footer-copyright-wrapper .footer-copyright-rrss__item{padding-right:0;padding-bottom:0}
+.footer-copyright-wrapper .footer-copyright-rrss__item:nth-child(10){padding-left:0}
+}
+.footer-copyright-wrapper .footer-copyright-rrss__item .icon{color:#ec0000;font-size:18px;line-height:0}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright-rrss__item .icon{font-size:18px}
+}
+.footer-copyright-wrapper .footer-copyright-rrss-item__url{display:flex;justify-content:center;align-items:center;overflow:hidden;height:100%;width:100%;background-color:#fff;border-radius:100%}
+@media(min-width:1024px){.footer-copyright-wrapper .footer-copyright-rrss-item__url{height:100%;width:100%}
+}

@@ -1,0 +1,94 @@
+@font-face{font-family:"SantanderHeadline-Regular";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Rg.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderHeadline-It";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderHeadline-Bold";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderHeadline-BoldIt";src:url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot"),url("../clientlib-site/resources/fonts/SantanderHeadlineW05-BoldIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Light";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-LightIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Regular";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Regular.eot?#iefix") format("eot");font-weight:normal}
+@font-face{font-family:"SantanderText-Italic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Italic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderText-Bold";src:url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-Bold.eot?#iefix") format("eot");font-weight:bold}
+@font-face{font-family:"SantanderText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.ttf") format("truetype"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot"),url("../clientlib-site/resources/fonts/SantanderTextW05-BoldItalic.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-BoldItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-BdIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Bold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Bold.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-SemiBold";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-SmBd.woff2") format("woff2")}
+@font-face{font-family:"SantanderMicroText-Italic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-It.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Light";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Light.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-LightItalic";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-LtIt.eot?#iefix") format("eot")}
+@font-face{font-family:"SantanderMicroText-Regular";src:url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff") format("woff"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.woff2") format("woff2"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot"),url("../clientlib-site/resources/fonts/SantanderMicroTextW05-Rg.eot?#iefix") format("eot")}
+.banner-simple{margin:16px 0}
+@media(min-width:1024px){.banner-simple{margin:32px 0}
+}
+.rectangular .banner-simple-image-container{padding:0;color:#fff;position:relative;overflow:hidden;font-family:"SantanderMicroText-Regular";background-color:#767676;display:block}
+.rectangular .banner-simple-image-container.banner-simple-image-container-cursor{cursor:pointer}
+.rectangular .banner-simple-image-container.banner-simple-image-container-cursor .banner-simple-title-container,.rectangular .banner-simple-image-container.banner-simple-image-container-cursor .banner-simple-text-container{color:#fff}
+.rectangular .banner-simple-image-container .banner-simple-veil{width:100%;height:100%;background:rgba(0,0,0,0.35);position:absolute;left:0;top:0;z-index:1}
+.rectangular .banner-simple-image-container .banner-simple-image{width:100%;position:absolute;top:0;left:0;height:100%;object-fit:cover;object-position:center}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.rectangular .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
+.rectangular .banner-simple-image-container .banner-simple-content-container{padding:24px}
+.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container,.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-link{text-transform:uppercase;font-family:"SantanderMicroText-Bold";position:relative;z-index:1;margin-top:8px}
+@media(min-width:1024px){.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container,.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-link{margin-top:16px}
+}
+.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container:first-of-type,.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-link:first-of-type{margin-top:0}
+.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container h2,.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-link h2{font-size:14px;margin:0 0 16px 0;line-height:1;font-family:"SantanderHeadline-Bold"}
+.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-text-container .cmp-text{line-height:30px;font-size:24px;position:relative;z-index:1;margin-bottom:24px}
+@media(min-width:767px){.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-text-container .cmp-text{line-height:43px;font-size:30px}
+}
+.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-link{color:#fff;z-index:1;cursor:pointer;display:block}
+.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-link .icon{margin-left:10px;transition:.3s;display:inline-block}
+.rectangular .banner-simple-image-container .banner-simple-content-container .banner-simple-link:hover .icon.icon-navigate-link{transform:translateX(10px)}
+.rectangular .banner-simple-image-container .banner-complex__separator{position:relative}
+.rectangular .banner-simple-image-container .banner-complex__separator::after{content:"";display:block;position:absolute;height:2px;width:40px;background-color:#fff;bottom:0;z-index:1}
+@media(min-width:767px){.rectangular .banner-simple-image-container{min-height:0;height:250px}
+.rectangular .banner-simple-image-container .banner-simple-image{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.rectangular .banner-simple-image-container .banner-simple-text-container{width:75%;overflow:hidden}
+}
+@media(min-width:767px) and all and (-ms-high-contrast:none),(min-width:767px) and (-ms-high-contrast:active){.rectangular .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
+.square .banner-simple-image-container{padding:0;color:#fff;position:relative;overflow:hidden;font-family:"SantanderMicroText-Regular";background-color:#767676;display:block}
+.square .banner-simple-image-container.banner-simple-image-container-cursor{cursor:pointer}
+.square .banner-simple-image-container.banner-simple-image-container-cursor .banner-simple-title-container,.square .banner-simple-image-container.banner-simple-image-container-cursor .banner-simple-text-container{color:#fff}
+.square .banner-simple-image-container .banner-simple-veil{width:100%;height:100%;background:rgba(0,0,0,0.35);position:absolute;left:0;top:0;z-index:1}
+.square .banner-simple-image-container .banner-simple-image{width:100%;position:absolute;top:0;left:0;height:100%;object-fit:cover;object-position:center}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.square .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
+.square .banner-simple-image-container .banner-simple-content-container{padding:24px}
+.square .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container,.square .banner-simple-image-container .banner-simple-content-container .banner-simple-link{text-transform:uppercase;font-family:"SantanderMicroText-Bold";position:relative;z-index:1;margin-top:8px}
+@media(min-width:1024px){.square .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container,.square .banner-simple-image-container .banner-simple-content-container .banner-simple-link{margin-top:16px}
+}
+.square .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container:first-of-type,.square .banner-simple-image-container .banner-simple-content-container .banner-simple-link:first-of-type{margin-top:0}
+.square .banner-simple-image-container .banner-simple-content-container .banner-simple-title-container h2,.square .banner-simple-image-container .banner-simple-content-container .banner-simple-link h2{font-size:14px;margin:0 0 16px 0;line-height:1;font-family:"SantanderHeadline-Bold"}
+.square .banner-simple-image-container .banner-simple-content-container .banner-simple-text-container .cmp-text{line-height:30px;font-size:24px;position:relative;z-index:1;margin-bottom:24px}
+@media(min-width:767px){.square .banner-simple-image-container .banner-simple-content-container .banner-simple-text-container .cmp-text{line-height:43px;font-size:30px}
+}
+.square .banner-simple-image-container .banner-simple-content-container .banner-simple-link{color:#fff;z-index:1;cursor:pointer;display:block}
+.square .banner-simple-image-container .banner-simple-content-container .banner-simple-link .icon{margin-left:10px;transition:.3s;display:inline-block}
+.square .banner-simple-image-container .banner-simple-content-container .banner-simple-link:hover .icon.icon-navigate-link{transform:translateX(10px)}
+.square .banner-simple-image-container .banner-complex__separator{position:relative}
+.square .banner-simple-image-container .banner-complex__separator::after{content:"";display:block;position:absolute;height:2px;width:40px;background-color:#fff;bottom:0;z-index:1}
+@media(min-width:767px){.square .banner-simple-image-container{min-height:0;height:250px}
+.square .banner-simple-image-container .banner-simple-image{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.square .banner-simple-image-container .banner-simple-text-container{width:75%;overflow:hidden}
+}
+@media(min-width:767px) and all and (-ms-high-contrast:none),(min-width:767px) and (-ms-high-contrast:active){.square .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
+.story .banner-simple--wrapper{margin:8px 0}
+@media(min-width:1024px){.story .banner-simple--wrapper{margin:16px 0}
+}
+.columns .col-sm-4 .banner-simple-text-container{width:100%}
+@media(min-width:767px){.columns .col-sm-4 .banner-simple--wrapper.square,.columns .col-sm-6 .banner-simple--wrapper.square,.columns .col-sm-8 .banner-simple--wrapper.square{margin-top:0}
+}
+.columns .col-sm-4 .banner-simple--wrapper.square .banner-simple-image-container,.columns .col-sm-6 .banner-simple--wrapper.square .banner-simple-image-container,.columns .col-sm-8 .banner-simple--wrapper.square .banner-simple-image-container{padding-bottom:100%;overflow:hidden;position:relative}
+.columns .col-sm-4 .banner-simple--wrapper.square .banner-simple-image-container .banner-simple-content-container,.columns .col-sm-6 .banner-simple--wrapper.square .banner-simple-image-container .banner-simple-content-container,.columns .col-sm-8 .banner-simple--wrapper.square .banner-simple-image-container .banner-simple-content-container{position:absolute}
+.banner-simple--wrapper.square.h-left-align .banner-simple-image-container .banner-simple-image{object-position:center;object-fit:cover;object-position:left;font-family:"object-fit: cover; object-position: left;"}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.banner-simple--wrapper.square.h-left-align .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
+.banner-simple--wrapper.square.h-right-align .banner-simple-image-container .banner-simple-image{object-position:center;object-fit:cover;object-position:right;font-family:"object-fit: cover; object-position: right"}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.banner-simple--wrapper.square.h-right-align .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
+.banner-simple--wrapper.rectangular.v-up-align .banner-simple-image-container .banner-simple-image{object-position:center;object-fit:cover;object-position:top;font-family:"object-fit: cover; object-position: top;"}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.banner-simple--wrapper.rectangular.v-up-align .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
+.banner-simple--wrapper.rectangular.v-down-align .banner-simple-image-container .banner-simple-image{object-position:center;object-fit:cover;object-position:bottom;font-family:"object-fit: cover; object-position: bottom"}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.banner-simple--wrapper.rectangular.v-down-align .banner-simple-image-container .banner-simple-image{font-family:'object-fit: cover; object-position: center;'}
+}
