@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>uAdmin Tutorial Part 17 - Wrapping Up Your Application &#8212; uadmin 0.7 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pyramid.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="uAdmin Tutorial Part 17 - Wrapping Up Your Application (Current Progress)" href="full_code/part17.html" />
+    <link rel="prev" title="uAdmin Tutorial Part 16 - Advanced Security (Part 2)" href="part16.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="full_code/part17.html" title="uAdmin Tutorial Part 17 - Wrapping Up Your Application (Current Progress)"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="part16.html" title="uAdmin Tutorial Part 16 - Advanced Security (Part 2)"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">uadmin 0.7 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../coverage.html" accesskey="U">uAdmin Tutorials</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">uAdmin Tutorial Part 17 - Wrapping Up Your Application</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="uadmin-tutorial-part-17-wrapping-up-your-application">
+<h1>uAdmin Tutorial Part 17 - Wrapping Up Your Application<a class="headerlink" href="#uadmin-tutorial-part-17-wrapping-up-your-application" title="Permalink to this headline">¶</a></h1>
+<p>So far you have developed this really cool application that you want to show to your your customer or even to the world. Before you dockerize your application, let’s customize your dashboard in a fashionable way. Making it look good and customizing it to meet your customers requirements is important to the success of your app.</p>
+<p>First of all, open <strong>DASHBOARD MENUS</strong>.</p>
+<img alt="../_images/dashboardmenuhighlighted1.png" src="../_images/dashboardmenuhighlighted1.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Open the models that you have created and let’s add the Tool Tip that means the information you want to show when you hover the mouse to the model, an icon that you like to represent in the dashboard, and Cat which is the highlight of your model.</p>
+<img alt="../_images/todomodels.png" src="../_images/todomodels.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>By default any model that does not have an icon gets this icon:</p>
+<img alt="../_images/defaulticon1.png" class="align-center" src="../_images/defaulticon1.png" />
+<p>If you don’t have any pictures or icons in your computer, I would recommend you to go over <a class="reference external" href="https://www.flaticon.com/">flaticon.com</a>, but you can browse anywhere online. Once you search for an icon, download the PNG version and choose the size 128 pixels.</p>
+<img alt="../_images/flaticon128px1.png" src="../_images/flaticon128px1.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Result of my dashboard setup</p>
+<img alt="../_images/uadmindashboardtodo.png" src="../_images/uadmindashboardtodo.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Let’s change the title of the dashboard in general. Choose <strong>ANY</strong> of these methods that you prefer.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#method-1-within-the-application-settings">Method 1: Within the Application Settings</a></p></li>
+<li><p><a class="reference internal" href="#method-2-parseformvalue-function">Method 2: ParseFormValue Function</a></p></li>
+</ul>
+<section id="method-1-within-the-application-settings">
+<h2><strong>Method 1: Within the Application Settings</strong><a class="headerlink" href="#method-1-within-the-application-settings" title="Permalink to this headline">¶</a></h2>
+<p>Run your application. From uAdmin dashboard, click the wrench icon on the top right side to go to the settings.</p>
+<img alt="../_images/wrenchiconfromdashboard.png" src="../_images/wrenchiconfromdashboard.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Assign the Site Name in the input field. Save it afterwards.</p>
+<img alt="../_images/sitenamesetting.png" src="../_images/sitenamesetting.png" />
+</section>
+<section id="method-2-parseformvalue-function">
+<h2><strong>Method 2: ParseFormValue Function</strong><a class="headerlink" href="#method-2-parseformvalue-function" title="Permalink to this headline">¶</a></h2>
+<p>Go to the main.go and assign site name in the settings.</p>
+<div class="highlight-go notranslate"><div class="highlight"><pre><span></span><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// RegisterInlines codes</span>
+
+    <span class="c1">// Call InitializeSiteName function to assign the SiteName value in the Settings model.</span>
+    <span class="nx">InitializeSiteName</span><span class="p">()</span>
+
+    <span class="c1">// UI Handlers</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nx">InitializeSiteName</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Assign Site Name in the Settings</span>
+    <span class="nx">setting</span> <span class="p">=</span> <span class="nx">uadmin</span><span class="p">.</span><span class="nx">Setting</span><span class="p">{}</span>
+    <span class="nx">uadmin</span><span class="p">.</span><span class="nx">Get</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">setting</span><span class="p">,</span> <span class="s">&quot;code = ?&quot;</span><span class="p">,</span> <span class="s">&quot;uAdmin.SiteName&quot;</span><span class="p">)</span>
+    <span class="nx">setting</span><span class="p">.</span><span class="nx">ParseFormValue</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">&quot;Todo List&quot;</span><span class="p">})</span>
+    <span class="nx">setting</span><span class="p">.</span><span class="nx">Save</span><span class="p">()</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Result</p>
+<img alt="../_images/todolisttitle.png" src="../_images/todolisttitle.png" />
+<p>Once you are done with the setup, it’s about time to dockerize your application for the world to see. Go to the <a class="reference external" href="https://www.docker.com/">Docker Website</a> for more details.</p>
+<p>Congrats, now you know how to do the following in the entire series:</p>
+<ul class="simple">
+<li><p>Preparing uAdmin files in the project folder</p></li>
+<li><p>Build an application from scratch</p></li>
+<li><p>Creating external models</p></li>
+<li><p>Crop an image</p></li>
+<li><p>Using Register Inlines</p></li>
+<li><p>Adding a drop down list to the field manually</p></li>
+<li><p>Applying different uAdmin tags</p></li>
+<li><p>Using M2M (Many-to-many) for multiselection feature</p></li>
+<li><p>Functional back-end validation</p></li>
+<li><p>API setup and configuration</p></li>
+<li><p>HTML Template concepts</p></li>
+<li><p>Access an HTML file</p></li>
+<li><p>Migration of data</p></li>
+<li><p>Generate a self-signed SSL certificate</p></li>
+<li><p>Implementing two factor authentication (2FA)</p></li>
+<li><p>Reset your password by email</p></li>
+<li><p>Hash salt</p></li>
+<li><p>Encrypt your database</p></li>
+<li><p>Change the dashboard title</p></li>
+<li><p>Customize your dashboard</p></li>
+<li><p>Dockerize your application online</p></li>
+</ul>
+<p>Click <a class="reference external" href="https://uadmin-docs.readthedocs.io/en/latest/tutorial/full_code/part17.html">here</a> to view the full progress of this application.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="full_code/part17.html">uAdmin Tutorial Part 17 - Wrapping Up Your Application (Current Progress)</a></li>
+</ul>
+</div>
+<p>If you want to learn more and discover about the concepts of uAdmin, you may go to these references with examples:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://uadmin-docs.readthedocs.io/en/latest/api.html">API Reference</a></p></li>
+<li><p><a class="reference external" href="https://uadmin-docs.readthedocs.io/en/latest/quick_reference.html">Quick Reference</a></p></li>
+<li><p><a class="reference external" href="https://uadmin-docs.readthedocs.io/en/latest/system_reference.html">System Reference</a></p></li>
+<li><p><a class="reference external" href="https://uadmin-docs.readthedocs.io/en/latest/tags.html">Tag Reference</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="../index.html">Table of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../coverage.html">uAdmin Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../application.html">uAdmin Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quiz.html">uAdmin Quizzes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dapi.html">dAPI Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quick_reference.html">Quick Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../system_reference.html">System Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tags.html">Tag Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bestpractices.html">Best Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About uAdmin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Roadmap</a></li>
+</ul>
+
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="part16.html"
+                          title="previous chapter">uAdmin Tutorial Part 16 - Advanced Security (Part 2)</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="full_code/part17.html"
+                          title="next chapter">uAdmin Tutorial Part 17 - Wrapping Up Your Application (Current Progress)</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/tutorial/part17.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="full_code/part17.html" title="uAdmin Tutorial Part 17 - Wrapping Up Your Application (Current Progress)"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="part16.html" title="uAdmin Tutorial Part 16 - Advanced Security (Part 2)"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">uadmin 0.7 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../coverage.html" >uAdmin Tutorials</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">uAdmin Tutorial Part 17 - Wrapping Up Your Application</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, uadmin.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
+    </div>
+  </body>
+</html>
