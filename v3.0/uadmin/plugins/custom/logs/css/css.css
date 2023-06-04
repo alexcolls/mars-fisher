@@ -1,0 +1,71 @@
+/*input.form-control.input-sm[type="search"] {
+    padding: 0px 10px;
+    width: 169px;
+}*/
+
+/*.round_button.btn-sm {
+    border-radius: 100px;
+    margin-right: 4px;
+}
+*/
+/*.controllll .btn .glyphicon{
+	//opacity:0;
+}*/
+/*.controllll .btn.active .glyphicon{
+	//opacity:1;
+}
+*/
+/*.comm{
+    max-width: 100px;
+}*/
+/*.hiddne{
+    visibility: hidden;
+}
+*/
+
+/*dd{
+    padding-left: 10px
+}
+*/
+
+/*.action{
+	
+	min-width:70px;
+}*/
+/*td.sticky {
+    text-align: center;
+}*/
+
+.select-checkbox.sorting_disabled:before {
+    content: none !important;
+}
+
+
+.select-checkbox {
+
+    width: 1px !important;
+}
+
+
+.on .fa.fa-check-square-o {
+    display: inline-block;
+}
+
+
+
+.on .fa.fa-square-o {
+    display: none;
+}
+
+.off .fa.fa-check-square-o {
+    display: none;
+}
+
+.off .fa.fa-square-o {
+    display: inline-block;
+}
+
+
+.select_all_div {
+    text-align: center;
+}

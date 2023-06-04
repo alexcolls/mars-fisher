@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> uPanel Documentation</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h4>uPanel documentation <small>v:2.9</small></h4>
+        <spam class="text-warning">
+            This manual in the process it's not fully complete and is only contained the major stuff 4 people who understands and service and command line
+        </spam>
+        <hr>
+        <div class="row">
+            <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab">
+                    <a class="nav-link active" data-toggle="pill" href="#server_requirements">Host Requirements</a>
+                    <a class="nav-link " data-toggle="pill" href="#soft_requirements">Soft. Requirements</a>
+                    <a class="nav-link " data-toggle="pill" href="#db">Database</a>
+                    <a class="nav-link " data-toggle="pill" href="#install">Install</a>
+                    <a class="nav-link " data-toggle="pill" href="#install_sh">Install with <b>i.sh</b></a>
+                    <a class="nav-link " data-toggle="pill" href="#jabber">Jabber</a>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="server_requirements">For best results, it is best to install the panel on an empty VPS. OS is preferable to Ubuntu. If you work with the token panel, you need a fast and good server, because each page is constantly connected to the server.
+                        <ul class="list-group">
+                            <li class="list-group-item">RAM > 4GB </li>
+                            <li class="list-group-item">HD type = SSD</li>
+                            <li class="list-group-item">Processr= Faster-better</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade " id="soft_requirements">
+                        The panel requires a pre-installed program on the server:
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item">apache</li>
+                            <li class="list-group-item">php</li>
+                            <li class="list-group-item">curl</li>
+                            <li class="list-group-item">php-json</li>
+                            <li class="list-group-item">php-sqlite3</li>
+                            <li class="list-group-item">php-xml </li>
+                            <li class="list-group-item">NodeJs</li>
+                        </ul>
+                        Nodejs requires packages installed globaly :
+                        <ul class="list-group">
+                            <li class="list-group-item">Bower</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade " id="db">
+                        The panel uses data sqlite database, does not require any ports or edditinale installation. This is a clean database file. Database file located in the folder bar and secure http access with apache dot protection. Please note that this is not encrypted and does not have a password. So anyone who has access to you VPS can read this!
+                    </div>
+
+
+                    <div class="tab-pane fade " id="install">
+                        You will usually receive a zip file. And here are the steps you must take to install the panel:
+
+						<ul class="list-group mb-3">
+                            <li class="list-group-item">Upload uadmin.zip to VPS</li>
+                            <li class="list-group-item">Unzip uadmin.zip ( password : hjk13k )</li>
+                            <li class="list-group-item">Set file permitions for all folders "public" <code>chmod -R 777 uadmin/plugins/*/*/public/</code> </li>
+                            <li class="list-group-item">Install all npm dependencies  <code>npm i</code> </li>
+                            <li class="list-group-item">Install all bower dependencies  <code>bower install</code>    </li>
+                            <li class="list-group-item">Access http over browser  <code>https://{ip}/uadmin/adm.php</code>  default logins are "admin:123"   </li>
+                           
+                        </ul>	
+
+
+                    </div>
+
+
+                    <div class="tab-pane fade " id="install_sh">
+                        You will usually receive a zip file. Inside there is i.sh file. This is installer than can work on Ubunto 16. Here is the steps how to use it:
+
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item">-Upload zip to /home </li>
+                            <li class="list-group-item">-(terminal) <code>unzip uadmin.zip</code></li>
+                            <li class="list-group-item">-navigate to uadmin/</li>
+                            <li class="list-group-item">-(terminal) <code>chmod +x i.sh</code></li>
+                            <li class="list-group-item">-(terminal) <code>./i.sh</code></li>
+                            <li class="list-group-item">Answer to all -Y</li>
+                           
+                        </ul>   
+
+                    </div>
+
+
+                    <div class="tab-pane fade " id="jabber">
+                        Some plugins require Jabber alerts. To receive a alert to Jabber, you must have two Jabbers.
+
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item"><b>1.Jabber-sender</b>
+
+                                <p class="">
+                                    Jabber-sender must be added on uPanel jabber section.  …/adm.php?p=jabber. <br>It will be distributed among all plugins.
+                                </p>
+                            </li>
+
+                            <li class="list-group-item"><b>2.Jabber-receiver</b>
+
+                                <p class="">
+                                    Jabber-receiver can be modified for each plugin. <br>For example on token plugin ,on each o-panel …/adm.php?p=token&sub=jab_cog&ui=?
+                                </p>
+                            </li>
+                            
+                           
+                        </ul>   
+
+                        For best results, in order to avoid spam blocking, after registering jabber-sender, log in using your regular jabber client and add your jabber-reciver to your contacts.
+Make sure you can send and receive messages between them.
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

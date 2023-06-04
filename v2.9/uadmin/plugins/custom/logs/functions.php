@@ -1,7 +1,7 @@
 <?php
-if (!defined('UADMIN_AB_ROOT')) {die("You not have permisions");}
+// if (!defined('UADMIN_AB_ROOT')) {die("You not have permisions");}
 
-$sql = new sqlite3($k_plugin->path . 'public/.htBd.db');
+// $sql = new sqlite3($k_plugin->path . 'public/.htBd.db');
 
 //### logs init  ###########################
 require_once $k_plugin->path . '/classes/class-logs.php';

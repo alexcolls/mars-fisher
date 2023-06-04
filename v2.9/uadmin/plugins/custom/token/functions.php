@@ -1,5 +1,5 @@
 <?php
-if (!defined('UADMIN_AB_ROOT')) {die("You not have permisions");}
+// if (!defined('UADMIN_AB_ROOT')) {die("You not have permisions");}
 
 //############## PHP vars #####################
 //############## PHP vars #####################

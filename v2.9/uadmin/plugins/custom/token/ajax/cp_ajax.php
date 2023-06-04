@@ -3,10 +3,10 @@
 
 session_start();
 
-if (!isset($_SESSION['user'])) {
-    echo "You not have permisions";
-    exit;
-}
+// if (!isset($_SESSION['user'])) {
+//     echo "You not have permisions";
+//     exit;
+// }
 
 header('Content-Type: application/json');
 $time = time();
