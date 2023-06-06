@@ -1,0 +1,6 @@
+IP: 212.224.86.163
+URL: https://srv10848561.ultasrv.net:8443
+Username: root
+Password: J+4T355o5nhq8917h3O*JN
+Bash: sudo sshpass -p J+4T355o5nhq8917h3O*JN ssh root@212.224.86.163
+Copy uadmin from vps to local: scp -r root@212.224.86.163:/vars/wwww/var/www/vhosts/brave-saha.212-224-86-163.plesk.page/httpdocs/uadmin /home/quantium-rock/labs/blackcat/
