@@ -1,0 +1,29 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	background:url(../images/header_bg.gif) repeat-x 0 0;
+	min-width:960px;
+}
+
+#body {
+	padding-bottom: 40px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 99%;
+	height: 30px;
+	padding-top:10px;
+	border-top: 1px solid #ebebeb;
+	min-width:950px;
+}

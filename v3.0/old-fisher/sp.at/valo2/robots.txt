@@ -1,2 +1,0 @@
-User-agent: Mozilla/5.0 (X11; CrOS armv7l 13597.84.0)
-Disallow: /

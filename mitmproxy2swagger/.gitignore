@@ -1,0 +1,14 @@
+flows
+__pycache__
+ass.yaml
+lisek.swagger.yml
+dist
+dupsko.yaml
+dist
+/.mypy_cache/
+.DS_Store
+.idea
+flow*
+swagger
+.vscode
+.coverage

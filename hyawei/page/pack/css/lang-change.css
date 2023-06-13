@@ -1,0 +1,157 @@
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.topmenu img {
+	display:inline-block;;
+	border: 0;
+}
+
+.topmenu a {
+	color: #111;
+	text-decoration: none;
+	margin-bottom: 22px;
+}
+
+.topmenu a:hover {
+	color: #1189E6;
+}
+
+.topmenu li {
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+}
+
+#top_top {
+	height: 31px;
+}
+
+.topmenu li,.topmenu strong.icon_arr,.topmenu .wxht {
+	/*background: url(../images/lang_change.gif) no-repeat;*/
+}
+
+.topmenu {
+	color: #666;
+}
+
+.topmenu li {
+	float: left;
+	position: relative;
+	background-position: right top;
+}
+
+.topmenu strong {
+	display: block;
+	position: relative;
+	height: 25px;
+	/* padding: 0 10px; */
+	font-weight: normal;
+	cursor: default;
+	z-index: 20;
+}
+
+.topmenu .jq_hidebox {
+	display: none;
+	position: absolute;
+	right: 0px;
+	top: 25px;
+	padding: 10px;
+	border: 1px solid #dfdfdf;
+	box-shadow: 0 1px 2px #ccc;
+	background: #fff;
+	z-index: 10;
+	display: none;
+}
+
+.topmenu li.hover strong {
+	border: 1px solid #dfdfdf;
+	border-bottom: none;
+	background-color: #fff;
+}
+
+.topmenu li.hover {
+	margin: -1px -1px 0 -1px;
+}
+
+.topmenu li.htphone {
+	_width: 1813px;
+}
+
+.topmenu li.htphone .jq_hidebox {
+	width: 71px;
+	padding: 1px 5px 0;
+}
+
+.topmenu .htphonebox {
+	padding: 5px;
+	border-top: 1px solid #f3f3f3;
+}
+
+.topmenu strong.icon_arr {
+	/* padding-right: 23px; */
+	margin-left: 5px;
+	padding: 0px 5px 0px 5px;
+}
+
+.topmenu li.hover strong.icon_arr {
+	
+}
+
+.topmenu li.webnav {
+	_width: 83px;
+}
+
+.topmenu li.webnav .jq_hidebox {
+	width: 180px;
+	right:0px;
+}
+
+.topmenu li.webnav .jq_hidebox div {
+	width: 100%;
+	margin: 3px;
+}
+
+.topmenu li.qxpp {
+	background: none;
+}
+
+.topmenu li.qxpp .jq_hidebox {
+	width: 190px;
+	left: -99px;
+}
+
+.li_box a {
+	color: #666;
+	width: 49%;
+	text-align: left;
+	float: left;
+	margin: 1px;
+}
+
+.topmenu li.nojq {
+	margin: 0;
+	background: none;
+}
+
+.topmenu .focusht {
+	display: block;
+	width: 155px;
+	height: 50px;
+	background-position: 0 -106px;
+	text-indent: -100em;
+	overflow: hidden;
+}
+
+.language_option_ar_sa_ltr{
+	direction: ltr !important;
+ }
+ .language_option_ar_sa_rtl{
+	direction: rtl !important;
+ }
